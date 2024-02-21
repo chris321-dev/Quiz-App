@@ -218,3 +218,10 @@ pointer-events: none;
   font-size: 13px;
   font-weight: 500;
 }
+
+
+@media (max-width: 584px) and (max-height: 670px) {
+  .App {
+    min-height: 70vh;
+  }
+}
